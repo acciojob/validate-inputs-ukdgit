@@ -27,6 +27,6 @@ mobileInput.addEventListener('input', () => {
   if (mobilePattern.test(mobileInput.value)) {
     mobileInput.style.backgroundColor = 'lightgreen';
   } else {
-    mobileInput.style.backgroundColor = 'pink';
+    mobileInput.style.backgroundColor = 'rgb(255, 192, 203)';
   }
 });
